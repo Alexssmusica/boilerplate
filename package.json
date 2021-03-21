@@ -9,8 +9,7 @@
     "lint": "eslint src --max-warnings=0",
     "prettier": "prettier src/**/*.{tsx,js,ts} --write",
     "test": "jest",
-    "test:watch": "yarn test --watch",
-    "prepare": "husky install"
+    "test:watch": "yarn test --watch"
   },
   "husky": {
     "hooks": {
