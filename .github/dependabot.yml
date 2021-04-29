@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@types/node"
+    versions:
+    - 15.0.0
+  - dependency-name: "@storybook/addon-essentials"
+    versions:
+    - 6.2.5
+    - 6.2.7
+  - dependency-name: eslint
+    versions:
+    - 7.23.0
