@@ -1,9 +1,9 @@
 import * as Style from './styles';
 
-const Buttom = () => (
+const Button = () => (
     <Style.Wrapper>
-        <h1>Buttom</h1>
+        <h1>Button</h1>
     </Style.Wrapper>
 );
 
-export default Buttom;
+export default Button;
