@@ -38,7 +38,7 @@
     "@babel/preset-env": "^7.21.5",
     "@babel/preset-typescript": "^7.21.5",
     "@storybook/addon-essentials": "^7.0.18",
-    "@storybook/builder-webpack5": "^7.0.17",
+    "@storybook/builder-webpack5": "^7.0.18",
     "@storybook/manager-webpack5": "^6.5.16",
     "@storybook/react": "^7.0.18",
     "@testing-library/jest-dom": "^5.16.5",
