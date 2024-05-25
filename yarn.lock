@@ -2904,20 +2904,6 @@
   dependencies:
     type-fest "^2.19.0"
 
-"@storybook/docs-tools@8.1.1":
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-8.1.1.tgz#a1d5bd37a54730479b6e755bbc26fdff38493e23"
-  integrity sha512-BPq9e6bl4uRru0GSLHS56eg0SV5LEMJSzrMIzeSrTf9xoZdBeLM05oblo2oebEGZUE97uduhKoaUeUJtsuMIxw==
-  dependencies:
-    "@storybook/core-common" "8.1.1"
-    "@storybook/core-events" "8.1.1"
-    "@storybook/preview-api" "8.1.1"
-    "@storybook/types" "8.1.1"
-    "@types/doctrine" "^0.0.3"
-    assert "^2.1.0"
-    doctrine "^3.0.0"
-    lodash "^4.17.21"
-
 "@storybook/docs-tools@8.1.3":
   version "8.1.3"
   resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-8.1.3.tgz#a93045b1547d86575f52a81da7f391e1fa653ee4"
@@ -3089,27 +3075,22 @@
   resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-8.1.1.tgz#d4a39e106a41cd0da27c8cfae6fef080aaae9758"
   integrity sha512-P8iBi9v/62AhTztbCYjVxH6idNO0h9uO583GHwi3uq2Io7F1gUSgwG/HYZ7PnclOsMnmG0FJvAwrvdRc6sWSNw==
 
-"@storybook/react-dom-shim@8.1.1":
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.1.1.tgz#e83a885d551ddd683bec6d4bc654dc5a47d882cd"
-  integrity sha512-X2WPGOxKZhReokqyBbYxhsCHe0qzyM2V8Vs4tQIua/HpNJ/4jqFoXmJvMnUtzwnNry4Gpuhn3nVPtD4QRZsP1w==
-
 "@storybook/react-dom-shim@8.1.3":
   version "8.1.3"
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.1.3.tgz#bd991e15d574a0e85666d3f1af10913eadc8d0c5"
   integrity sha512-CTyxH/ssU5KRbUwi3ws2NWEnMS6rjat0AYyhcskdPiPU59Qm24TrSpLqO+Rgzln8w7EDFsty3lLpcPNYs+BKlQ==
 
-"@storybook/react@^8.1.1":
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-8.1.1.tgz#f8474f98122a44879bb5995b44e70f24a739d743"
-  integrity sha512-J4DIn9Lo2quYuaU/vLfQM1N4XcXIURWxAet1/y32K5Du0debNnKTPJnwBUT9b4bucBpldEWdN9uw3JvHQyb3qA==
+"@storybook/react@^8.1.3":
+  version "8.1.3"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-8.1.3.tgz#27d88768bf79ec0722ed23c6daf0f9dfdc6c24ef"
+  integrity sha512-95BytmZIpSg+QYO6glC6Oq+J0LlTTz9euL7trlYdzCpnuo6gBTaxtttSCQij4pRzRC/06tcDAK65l2JyYpiTXg==
   dependencies:
-    "@storybook/client-logger" "8.1.1"
-    "@storybook/docs-tools" "8.1.1"
+    "@storybook/client-logger" "8.1.3"
+    "@storybook/docs-tools" "8.1.3"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "8.1.1"
-    "@storybook/react-dom-shim" "8.1.1"
-    "@storybook/types" "8.1.1"
+    "@storybook/preview-api" "8.1.3"
+    "@storybook/react-dom-shim" "8.1.3"
+    "@storybook/types" "8.1.3"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^18.0.0"
