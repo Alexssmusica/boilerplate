@@ -2838,20 +2838,6 @@
   dependencies:
     type-fest "^2.19.0"
 
-"@storybook/docs-tools@8.1.10":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-8.1.10.tgz#5ffd3a49dfc41786ceddcf72f282267aeff113fb"
-  integrity sha512-FsO/+L9CrUfAIbm9cdH9UpjTusT7L5RZxN4WCXkiF5SpAVyBoY8kar3RzTZVoh4aQxt1yGWYC+SZGjgf++xa4g==
-  dependencies:
-    "@storybook/core-common" "8.1.10"
-    "@storybook/core-events" "8.1.10"
-    "@storybook/preview-api" "8.1.10"
-    "@storybook/types" "8.1.10"
-    "@types/doctrine" "^0.0.3"
-    assert "^2.1.0"
-    doctrine "^3.0.0"
-    lodash "^4.17.21"
-
 "@storybook/docs-tools@8.1.11":
   version "8.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-8.1.11.tgz#f779d3dd0fc4545c7c6a74c6c38663e72c51a52e"
@@ -3023,27 +3009,22 @@
   resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-8.1.10.tgz#1730558fb5327741317f8a63b5218b0036168b2a"
   integrity sha512-Ch7SJQ8/vm4o7ZPwPeL3nGOCKx1Aul7VcvOVkDs+K2lZusJjUROHVTBYlbs71DTTmCo2gS7WhSq+HOpD59BPDg==
 
-"@storybook/react-dom-shim@8.1.10":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.1.10.tgz#c4c8cb47827185e240972358f38081290cecb8b8"
-  integrity sha512-+HS75Pq8jb3xkVq0hK33D84aGfbJCURRB+GN2vfTMmmjguQt7z2+MnGqRgrUCt6h2rxU3VdPg9OBnYi/UC0Zrg==
-
 "@storybook/react-dom-shim@8.1.11":
   version "8.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.1.11.tgz#d4cc6222eb1f169d10c5403dbb580e4c3e29c142"
   integrity sha512-KVDSuipqkFjpGfldoRM5xR/N1/RNmbr+sVXqMmelr0zV2jGnexEZnoa7wRHk7IuXuivLWe8BxMxzvQWqjIa4GA==
 
-"@storybook/react@^8.1.10":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-8.1.10.tgz#7fd32dbcb2ed5553f63b28141e3a7b6ce38edd91"
-  integrity sha512-y0ycq19tTLLk+4rB+nfCPCtoFBWC0QvmMaJY32dbAjWPk+UNFGhWdqjg0oP1NwXYL18WnhRzlyz1Rojw0aXk1w==
+"@storybook/react@^8.1.11":
+  version "8.1.11"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-8.1.11.tgz#89408fa34b1ce79a3df17c2f41745fd37ba9f492"
+  integrity sha512-t+EYXOkgwg3ropLGS9y8gGvX5/Okffu/6JYL3YWksrBGAZSqVV4NkxCnVJZepS717SyhR0tN741gv/SxxFPJMg==
   dependencies:
-    "@storybook/client-logger" "8.1.10"
-    "@storybook/docs-tools" "8.1.10"
+    "@storybook/client-logger" "8.1.11"
+    "@storybook/docs-tools" "8.1.11"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "8.1.10"
-    "@storybook/react-dom-shim" "8.1.10"
-    "@storybook/types" "8.1.10"
+    "@storybook/preview-api" "8.1.11"
+    "@storybook/react-dom-shim" "8.1.11"
+    "@storybook/types" "8.1.11"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^18.0.0"
