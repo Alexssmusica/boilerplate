@@ -2650,6 +2650,11 @@
     memoizerific "^1.11.3"
     util-deprecate "^1.0.2"
 
+"@storybook/components@^8.2.9":
+  version "8.2.9"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-8.2.9.tgz#a2394749d52940b7a224d1d4801d756b2750b488"
+  integrity sha512-OkkcZ/f/6o3GdFEEK9ZHKIGHWUHmavZUYs5xaSgU64bOrA2aqEFtfeWWitZYTv3Euhk8MVLWfyEMDfez0AlvDg==
+
 "@storybook/core-client@6.5.16":
   version "6.5.16"
   resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-6.5.16.tgz#ed2328fd38c6111fe887f6a91b28d9dc2b17092a"
@@ -2875,6 +2880,11 @@
     telejson "^7.2.0"
     ts-dedent "^2.0.0"
 
+"@storybook/manager-api@^8.2.9":
+  version "8.2.9"
+  resolved "https://registry.yarnpkg.com/@storybook/manager-api/-/manager-api-8.2.9.tgz#f09a83fce286bc48783c75e7d7184dd8a5381527"
+  integrity sha512-mkYvUlfqDw+0WbxIynh5TcrotmoXlumEsOA4+45zuNea8XpEgj5cNBUCnmfEO6yQ85swqkS8YYbMpg1cZyu/Vw==
+
 "@storybook/manager-webpack5@^6.5.16":
   version "6.5.16"
   resolved "https://registry.yarnpkg.com/@storybook/manager-webpack5/-/manager-webpack5-6.5.16.tgz#48b223557d9633614ff8c6e3227c01a57ab4eb55"
@@ -2949,6 +2959,11 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
+"@storybook/preview-api@^8.2.9":
+  version "8.2.9"
+  resolved "https://registry.yarnpkg.com/@storybook/preview-api/-/preview-api-8.2.9.tgz#e35ca783a1d98174e73223856397a9767766a737"
+  integrity sha512-D8/t+a78OJqQAcT/ABa1C4YM/OaLGQ9IvCsp3Q9ruUqDCwuZBj8bG3D4477dlY4owX2ycC0rWYu3VvuK0EmJjA==
+
 "@storybook/preview-web@6.5.16":
   version "6.5.16"
   resolved "https://registry.yarnpkg.com/@storybook/preview-web/-/preview-web-6.5.16.tgz#1d32a72be25776f9597e33ffc1914f3430fae689"
@@ -2981,17 +2996,22 @@
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.1.11.tgz#d4cc6222eb1f169d10c5403dbb580e4c3e29c142"
   integrity sha512-KVDSuipqkFjpGfldoRM5xR/N1/RNmbr+sVXqMmelr0zV2jGnexEZnoa7wRHk7IuXuivLWe8BxMxzvQWqjIa4GA==
 
-"@storybook/react@^8.1.11":
-  version "8.1.11"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-8.1.11.tgz#89408fa34b1ce79a3df17c2f41745fd37ba9f492"
-  integrity sha512-t+EYXOkgwg3ropLGS9y8gGvX5/Okffu/6JYL3YWksrBGAZSqVV4NkxCnVJZepS717SyhR0tN741gv/SxxFPJMg==
+"@storybook/react-dom-shim@8.2.9":
+  version "8.2.9"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.2.9.tgz#db31bdab3a995759a9e45b2dc2ca0888a75fc89d"
+  integrity sha512-uCAjSQEsNk8somVn1j/I1G9G/uUax5byHseIIV0Eq3gVXttGd7gaWcP+TDHtqIaenWHx4l+hCSuCesxiLWmx4Q==
+
+"@storybook/react@^8.2.9":
+  version "8.2.9"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-8.2.9.tgz#91348ab82e699a2d2f48b9721fe781782badc9ac"
+  integrity sha512-F2xZcTDxxjpbqt7eP8rEHmlksiKmE/qtPusEWEY4N4jK01kN+ncxSl8gkJpUohMEmAnVC5t/1v/sU57xv1DYpg==
   dependencies:
-    "@storybook/client-logger" "8.1.11"
-    "@storybook/docs-tools" "8.1.11"
+    "@storybook/components" "^8.2.9"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "8.1.11"
-    "@storybook/react-dom-shim" "8.1.11"
-    "@storybook/types" "8.1.11"
+    "@storybook/manager-api" "^8.2.9"
+    "@storybook/preview-api" "^8.2.9"
+    "@storybook/react-dom-shim" "8.2.9"
+    "@storybook/theming" "^8.2.9"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^18.0.0"
@@ -3076,6 +3096,11 @@
     "@storybook/client-logger" "8.1.11"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
+
+"@storybook/theming@^8.2.9":
+  version "8.2.9"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.2.9.tgz#6eb066f8957272c0bcb0078a8a9bc378ca9311d3"
+  integrity sha512-OL0NFvowPX85N5zIYdgeKKaFm7V4Vgtci093vL3cDZT13LGH6GuEzJKkUFGuUGNPFlJc+EgTj0o6PYKrOLyQ6w==
 
 "@storybook/types@8.1.11":
   version "8.1.11"
