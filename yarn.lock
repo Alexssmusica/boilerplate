@@ -3143,23 +3143,23 @@
   resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-8.1.11.tgz#da251aa4789332154b1837abae0a3186a5442421"
   integrity sha512-K/9NZmjnL0D1BROkTNWNoPqgL2UaocALRSqCARmkBLgU2Rn/FuZgEclHkWlYo6pUrmLNK+bZ+XzpNMu12iTbpg==
 
-"@storybook/react-dom-shim@10.1.8":
-  version "10.1.8"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.1.8.tgz#5521eca77dbd8a71e460e8ca4b87d926edc2ad79"
-  integrity sha512-L1XNbPILnAkQcFMqmv+g4bZ0qc5F1NdjZbo4koCxASwWpFbaXFceazNrEURUUxDpo/sqmcxSdAykbjJr9hilSw==
+"@storybook/react-dom-shim@10.1.9":
+  version "10.1.9"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.1.9.tgz#8936ec3cb9a1111abf8c8cef1c6d488f4b52c792"
+  integrity sha512-gJsR6fI1gG4DSin6sQx8RmGDQF8Lije0cZbxHyVedNleBsveGXIPFUKFVi+pRNdwBPni1Z2g/gYyHzkOEqPD2w==
 
 "@storybook/react-dom-shim@8.1.11":
   version "8.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.1.11.tgz#d4cc6222eb1f169d10c5403dbb580e4c3e29c142"
   integrity sha512-KVDSuipqkFjpGfldoRM5xR/N1/RNmbr+sVXqMmelr0zV2jGnexEZnoa7wRHk7IuXuivLWe8BxMxzvQWqjIa4GA==
 
-"@storybook/react@^10.1.8":
-  version "10.1.8"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-10.1.8.tgz#b8b20cba96e5f9420974a23c58e47f7c3a6ebf2d"
-  integrity sha512-XQlvNadAL9WE9AH4YpeAWOxGCwFYGkvwvS7ZtsqJcR/iVTNcKI4BZYu+lGb6VJvrkNTpTteG/w+/WNTiwd8IhA==
+"@storybook/react@^10.1.9":
+  version "10.1.9"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-10.1.9.tgz#7652d28cc09a0b52d076af4ab0c7199f0e1085ec"
+  integrity sha512-NqiFp5rJmxzs0teNAGqgGH0nD8q1aYR8AxQl9OYSHULYoLJR1/RqcyBPTTBjxAOpWF/pZgLBrRW+FjZbjKLLMQ==
   dependencies:
     "@storybook/global" "^5.0.0"
-    "@storybook/react-dom-shim" "10.1.8"
+    "@storybook/react-dom-shim" "10.1.9"
     react-docgen "^8.0.2"
 
 "@storybook/router@6.5.16":
