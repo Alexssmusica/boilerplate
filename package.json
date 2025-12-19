@@ -65,6 +65,6 @@
     "plop": "^4.0.4",
     "prettier": "3.7.4",
     "typescript": "^5.9.3",
-    "webpack": "^5.104.0"
+    "webpack": "^5.104.1"
   }
 }
